@@ -19,6 +19,8 @@ mongoose
     console.log(error);
   });
 
-createThingsDB.createAuthor();
+mongoose.connection.on("error", (error)=>{console.error(error);});
+
+// createThingsDB.createAuthor();
 
 

@@ -4,7 +4,8 @@
   "description": "`#mongodb` `#database` `#nrdb` `#master-in-software-engineering`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/Noiztbander/mongodb-pill#readme",
   "devDependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.13.5"
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
   }
 }

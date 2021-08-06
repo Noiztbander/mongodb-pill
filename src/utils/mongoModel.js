@@ -29,6 +29,8 @@ function createBook (){
 
 };
 
+console.log("Hay dioh");
+
 module.exports = {
 	createAuthor: createAuthor,
 	createBook: createBook,
